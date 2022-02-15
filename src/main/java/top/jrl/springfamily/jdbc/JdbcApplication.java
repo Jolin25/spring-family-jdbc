@@ -25,7 +25,8 @@ import java.sql.SQLException;
 @SpringBootApplication
 public class JdbcApplication implements CommandLineRunner {
     /**
-     * todo 这个是什么
+     * DataSource 这个是什么:
+     * 数据源：数据源头，提供了应用程序所需要数据的位置
      *
      * @author jrl
      * @date 2022-2-15
@@ -40,6 +41,7 @@ public class JdbcApplication implements CommandLineRunner {
     }
 
     /**
+     * 这是CommandLineRunner提供的
      * 这里只是输出相关信息查看一下
      *
      * @param
